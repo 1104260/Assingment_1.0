@@ -16,10 +16,9 @@ public class Student {
         BS.Insert("Kareem");
         BS.Insert("Hameed");
         
-        
-        BS.Search("Noman");
-        BS.Delete(6);
-        BS.Search("Noman");
+        BS.getNames();
+        BS.Sort();
+        BS.getNames();
     }
     
 }
