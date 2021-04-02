@@ -1,4 +1,5 @@
 package Student;
+import java.util.Arrays;
 
 public class StudentName 
 {
@@ -36,6 +37,7 @@ public class StudentName
         {
             System.out.println(Names[i]+" ["+i+"]");
         }
+        System.out.println("______________________________________");
     }
     //Searches a Data and gives the Index
     private int FInd(String Name)
@@ -98,5 +100,9 @@ public class StudentName
         {
             System.out.println("The Index["+Index+"] wasn't Found");
         }
+    }
+    void Sort()
+    {
+        Arrays.sort(Names);
     }
 }
